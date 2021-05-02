@@ -1,0 +1,29 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "Keeps track of employees, their salaries, their positions, and allows to edit their information.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xvirix/Employee-Tracker.git"
+  },
+  "author": "Viridiana Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xvirix/Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/xvirix/Employee-Tracker#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clear": "^0.1.0",
+    "console.table": "^0.10.0",
+    "figlet": "^1.5.0",
+    "mysql": "^2.18.1",
+    "react-scripts": "^4.0.3",
+    "util": "^0.12.3"
+  }
+}
