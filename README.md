@@ -9,9 +9,8 @@ This application keeps track of employees and manages data.
 # Table of Contents 
 * [Installation](#-Installation)
 * [Usage](#-Usage)
-* [License](#-Installation)
+* [Screenshots and Tutortial](#-Installation)
 * [Contributing](#-Contributing)
-* [Tests](#-Tests)
 * [Questions](#-Contact-Information)
   
 # Installation
@@ -20,13 +19,11 @@ console.table, figlet, chalk, clear, mysql, util
 # Usage
 By running the command line at the root and answering the questions
 
-# License 
+# Screenshots and Tutorial
 
 
 # Contributing 
 Viridiana Ortiz
-
-# Tests
 
 
 # Contact Information 
