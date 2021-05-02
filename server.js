@@ -22,7 +22,7 @@ connection.connect(function(err) {
     clear();
 
     //Produces the ASCII art
-    console.log(chalk.green(cliArt.textSync('Employee Tracker', {horizontalLayout: 'fitted'})));
+    console.log(chalk.cyanBright(cliArt.textSync('Employee Tracker', {horizontalLayout: 'fitted'})));
     console.log("\n");
 
     //Calls the initiate function
@@ -638,15 +638,7 @@ function readEmployee(){
 //End the program and cuts connection to database
 function endProgram() {
     clear();
-    console.log(chalk.cyanBright(">>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<"));
-    console.log(chalk.blueBright(">>>>                                            <<<<"));
-    console.log(chalk.greenBright("****  Thank you for using Employee Tracker 1.0  ****"));
-    console.log(chalk.blueBright(">>>>                                            <<<<"));
-    console.log(chalk.cyanBright(">>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<"));
-    console.log(chalk.blueBright(">>>>                                            <<<<"));
-    console.log(chalk.greenBright("****                  Goodbye!                  ****"));
-    console.log(chalk.blueBright(">>>>                                            <<<<"));
-    console.log(chalk.cyanBright(">>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<"));
+    console.log(chalk.cyanBright("~~Thank you for using the Employee Tracker! Goodbye!~~"));
 
     process.exit();
 }
