@@ -20,6 +20,12 @@ console.table, figlet, chalk, clear, mysql, util
 By running the command line at the root and answering the questions
 
 # Screenshots and Tutorial
+![alt text](https://github.com/xvirix/Employee-Tracker/blob/main/assets/Photo1.jpg)
+![alt text](https://github.com/xvirix/Employee-Tracker/blob/main/assets/Photo2.jpg)
+
+Complete tutorial here:
+https://youtu.be/uuqHxVYoz-A
+
 
 
 # Contributing 
